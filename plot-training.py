@@ -1,0 +1,7 @@
+plt.plot(history['train_acc'], label='train accuracy')
+plt.plot(history['val_acc'], label='validation accuracy')
+plt.title('Training history')
+plt.ylabel('Accuracy')
+plt.xlabel('Epoch')
+plt.legend()
+plt.ylim([0, 1])
